@@ -11,9 +11,3 @@ for(let i=0; i<marqueeElementsDisplayed; i++) {
 
 
 
-import LocomotiveScroll from 'locomotive-scroll';
-
-const scroll = new LocomotiveScroll({
-    el: document.querySelector('.hero'),
-    smooth: true
-});
